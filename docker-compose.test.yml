@@ -1,0 +1,8 @@
+version: '3'
+services:
+  composer:
+    build:
+      context: ./
+      dockerfile: ./docker/tests/Composer/Dockerfile
+    volumes: #Composer finds composer.json in this dir
+      - ./code:/app

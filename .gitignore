@@ -1,0 +1,6 @@
+#composer
+./code/vendor/
+./code/html
+
+#phpunit
+./code/.phpunit.result.cache

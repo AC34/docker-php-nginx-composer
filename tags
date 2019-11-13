@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+MyClass	code/app/MyClass.php	/^class MyClass{$/;"	c
+MyClassTest	code/tests/MyClassTest.php	/^class MyClassTest extends TestCase{$/;"	c
+TestCase	code/tests/MyClassTest.php	/^use PHPUnit\\Framework\\TestCase;$/;"	a	typeref:unknown:PHPUnit\\Framework\\TestCase
+dotest	code/composer.json	/^    "dotest":".\/vendor\/bin\/phpunit --testsuite basic"$/;"	s	object:scripts
+hello	code/app/MyClass.php	/^    public function hello(){$/;"	f	class:MyClass
+phpunit/phpunit	code/composer.json	/^    "phpunit\/phpunit": "^8"$/;"	s	object:require-dev
+require	code/composer.json	/^  "require":{$/;"	o
+require-dev	code/composer.json	/^  "require-dev":{$/;"	o
+scripts	code/composer.json	/^  "scripts":{$/;"	o
+testMyClass	code/tests/MyClassTest.php	/^    function testMyClass(){$/;"	f	class:MyClassTest
