@@ -17,4 +17,4 @@ note:docker-compose files are on version 3.
 ### 4)nginx directory.
 	./code/index/ is used for nginx's root directory.
 	Any files that are on this directory are EXPOSED to public.
-	In the wild web world, some people are actually exposing their WHOLE APP directory by nginx(which absolutely not recommended).
+	In the wild web world, some people are actually exposing their WHOLE APP directory by nginx(which absolutely is not recommended).
