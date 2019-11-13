@@ -4,3 +4,6 @@
 
 #phpunit
 ./code/.phpunit.result.cache
+
+#ctags
+tags
