@@ -23,7 +23,8 @@ composer install
 in Dockerfile, files are shared by 
 ```
 volumes
-``` directive in compose file.
+```
+directive in compose file.
 ### 4)nginx directory.
 ```
 ./code/index/
