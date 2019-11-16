@@ -8,7 +8,10 @@ note:docker-compose files are on version 3.
 ### 2)don't forget to "up"
  e.g. docker-compose -f docker-compose.run.yml up
 ### 3)accessing the page
-	localhost:8080 from your browser.
+```
+localhost:8080
+```
+from your browser.
 
 ## Points:
 ### 3)Composer
